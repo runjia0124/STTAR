@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # parse the commandline
     parser = argparse.ArgumentParser()
 
-    # data organization parameters
+    # data configuration parameters
     parser.add_argument('--input_trk', required=True, help='input filename')
     parser.add_argument('--output_trk', required=True, help='output filename')
     parser.add_argument('--label', required=True, help='label filename')
