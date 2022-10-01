@@ -1,0 +1,56 @@
+[environment]
+cpu_count = 8
+exec_env = "posix"
+free_mem = 0.1
+overcommit_policy = "n/a"
+overcommit_limit = "n/a"
+nipype_version = "1.8.5"
+templateflow_version = "0.8.1"
+version = "0+untagged.3.g585e78e.dirty"
+
+[execution]
+bids_dir = "/Users/runjia/Code/STTAR/sttar/in"
+boilerplate_only = false
+debug = false
+fs_license_file = "/Users/runjia/fsl/license.txt"
+fs_subjects_dir = "/Users/runjia/Code/STTAR/sttar/out/freesurfer"
+layout = "BIDS Layout: ...ers/runjia/Code/STTAR/sttar/in | Subjects: 0 | Sessions: 0 | Runs: 0"
+log_dir = "/Users/runjia/Code/STTAR/sttar/out/dmriprep/logs"
+log_level = 25
+low_mem = false
+md_only_boilerplate = false
+notrack = true
+output_dir = "/Users/runjia/Code/STTAR/sttar/out"
+output_spaces = "run"
+reports_only = false
+run_uuid = "20221001-151720_9be2e4d7-993a-4c11-a1ef-fcf035704a9d"
+participant_label = []
+templateflow_home = "/Users/runjia/.cache/templateflow"
+work_dir = "/Users/runjia/Code/STTAR/sttar/cli/work"
+write_graph = false
+
+[workflow]
+anat_only = false
+dwi2t1w_init = "register"
+force_syn = false
+hires = true
+ignore = []
+longitudinal = false
+run_reconall = true
+skull_strip_fixed_seed = false
+skull_strip_template = "OASIS30ANTs"
+use_syn = false
+
+[nipype]
+crashfile_format = "txt"
+get_linked_libs = false
+nprocs = 8
+omp_nthreads = 8
+parameterize_dirs = false
+plugin = "MultiProc"
+resource_monitor = false
+stop_on_first_crash = false
+
+[nipype.plugin_args]
+maxtasksperchild = 1
+raise_insufficient = false
